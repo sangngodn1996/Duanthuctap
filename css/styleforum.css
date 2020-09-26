@@ -76,3 +76,57 @@ aside{
     float: left;
     border: 1px solid transparent;
 }
+/* .forums_content3 ul{
+    font-size: 12px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    clear: both;
+    display: block;
+}
+.forums_content3 ul li{
+    background: #eaeaea;
+    border-top: 1px solid #eee;
+    font-weight: 700;
+    padding: 8px;
+    text-align: center;
+    clear: both;
+}
+.forums_content3 .header ul{
+    overflow: hidden;
+    background: 0 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} */
+#bbpress-forums ul.bbp-forums, #bbpress-forums ul.bbp-lead-topic, #bbpress-forums ul.bbp-replies, #bbpress-forums ul.bbp-search-results, #bbpress-forums ul.bbp-topics {
+    font-size: 12px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    clear: both;
+}
+#bbpress-forums li.bbp-header {
+    background: #eaeaea;
+}
+#bbpress-forums li.bbp-footer, #bbpress-forums li.bbp-header {
+    background: #f3f3f3;
+    border-top: 1px solid #eee;
+    font-weight: 700;
+    padding: 8px;
+    text-align: center;
+}
+#bbpress-forums li {
+    background: 0 0;
+    margin: 0;
+    list-style: none;
+}
+#bbpress-forums li.bbp-header ul {
+    overflow: hidden;
+}
+#bbpress-forums ul, #bbpress-forums.bbpress-wrapper ul {
+    background: 0 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
