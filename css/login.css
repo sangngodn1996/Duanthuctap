@@ -16,7 +16,7 @@ align-content: center;
 }
 
 .card{
-height: 370px;
+height: auto;
 margin-top: auto;
 margin-bottom: auto;
 width: 400px;
@@ -87,3 +87,13 @@ color: white;
 .links a{
 margin-left: 4px;
 }
+
+/* register */
+
+.register_btn{
+text-align: center;
+color: black;
+background-color: rgb(14, 157, 201);
+width: 150px;
+}
+
