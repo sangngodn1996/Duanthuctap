@@ -102,7 +102,7 @@ aside { float: none; width: auto; max-width: none !important; margin: 0 0 20px; 
 .main p > iframe { height: 300px; }
 }
 
-.content aside a { color: #61b23b; }
+.content aside a { color: #d86d0e; }
 .content aside a:hover { color: #42931C; }
 .content aside ul li em { font-size: 11px; color: #aaa; font-style: normal; padding-left: 2px; }
 .content aside a.btn.green { color: #FFF; font-weight: bold; }
@@ -145,7 +145,7 @@ aside { float: none; width: auto; max-width: none !important; margin: 0 0 20px; 
 .postlist article h2.post-headline a { font-weight: bold; font-size: 25px; line-height: 30px; letter-spacing: -0.02em; }
 .postlist > article p.more-detail { float: none; }
 .postlist > article blockquote { margin-top: 1px; margin-bottom: 29px !important; }
-.more-detail a { background: #70c14a; border-radius: 2px; color: #fff; display: block; padding: 0 13px; text-align: center; height: 34px; line-height: 34px; font-size: 14px; letter-spacing: 0.022em; display: inline-block; transition: all 0.3s; }
+.more-detail a { background: #d86d0e; border-radius: 2px; color: #fff; display: block; padding: 0 13px; text-align: center; height: 34px; line-height: 34px; font-size: 14px; letter-spacing: 0.022em; display: inline-block; transition: all 0.3s; }
 .more-detail a:hover { background: #61b23b; color: #fff; text-decoration: none; }
 .more-detail a:active { background: #51a22b; }
 .post-right { border-bottom: 1px solid #dfdfdf; padding-bottom: 30px; float: right; width: 89%; margin-bottom: 32px; }

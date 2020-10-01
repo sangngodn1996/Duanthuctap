@@ -24,3 +24,18 @@ width: 100%;
 .content_mid{
     margin-bottom: 20px;
 }
+.card-title{
+    font-size: 22px;
+    color: #d86d0e;
+}
+a{
+    color: #d86d0e;
+}
+.widget ul.latest-works li { display: inline-block; margin: 0 10px 5px 0; }
+aside section ul { margin: 0; padding: 0; list-style: none; }
+aside section ul li { clear: both; font-size: 14px; }
+aside section ul li li { font-size: 13px; }
+aside .textwidget { font-size: 13px; line-height: 20px; color: #888; }
+aside .textwidget p { font-size: 13px; line-height: 20px; color: #888; }
+aside .recent-posts img, footer .recent-posts img { float: left; margin-right: 15px; margin-bottom: 24px; }
+aside .searchform button, footer .searchform button { margin-top: 2px; text-indent: -9999px; }
