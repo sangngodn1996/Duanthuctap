@@ -378,7 +378,7 @@ a:hover,a:focus {
 
 }
 
-.dash_bg::before {
+/* .dash_bg::before {
 
     width: 92px;
     height: 30px;
@@ -404,7 +404,7 @@ a:hover,a:focus {
     bottom: 100px;
     left: 70px;
 	
-}
+} */
 
 /*------------------------------------------------------------------ 
 HEADER 
@@ -739,8 +739,6 @@ button#sidebarCollapse {
 
 .dropdown1:hover .dropdown-content1{
 	display: block;
-	
-	
 }
 
 .dropdown-content2{
@@ -748,16 +746,39 @@ button#sidebarCollapse {
 	position: absolute;
 	background-color: whitesmoke;
 	width: 200px;
-	
-	
-	
 }
 
 .dropdown2:hover .dropdown-content2{
 	display: block;
-	
-	
 }
+
+.dropdown-content3{
+	display: none;
+	position: absolute;
+	background-color: whitesmoke;
+	width: 500px;
+	height: 200px;
+	float: left;
+    
+}
+.dropdown-content3 ul li{
+	display: inline-table;
+}
+.dropdown3:hover .dropdown-content3{
+	display: block;
+	opacity: 1;
+}
+
+.sub-menu{
+	display: none;
+	
+	z-index: 1;
+}
+.sub-menu li{
+	display: block;
+}
+
+
 
 /*------------------------------------------------------------------ Banner -------------------------------------------------------------------*/
 /*------------------------------------------------------------------ crossbar -------------------------------------------------------------------*/
