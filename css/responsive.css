@@ -624,17 +624,7 @@ header #sidebarCollapse img {
     line-height: normal !important;
     margin-bottom: 20px;
 }
-.dash_bg::after {
-    width: 92px;
-    height: 30px;
-    background: url('../images/das_bg.png');
-    content: "";
-    display: block;
-    position: absolute;
-    right: 0;
-    bottom: 60px;
-    left: 30px;
-}
+
 .heading_main {
     margin-bottom: 20px;
 }
@@ -679,16 +669,7 @@ header #sidebarCollapse img {
     margin: 0;
 }
 
-.dash_bg::before {
-    width: 92px;
-    height: 30px;
-    background: url('../images/das_bg.png');
-    content: "";
-    display: block;
-    position: absolute;
-    top: 40px;
-    right: 30px;
-}
+
 
 .heading_small h4 {
     margin-top: 0;
