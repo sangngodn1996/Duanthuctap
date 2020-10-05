@@ -522,7 +522,7 @@ a.navbar-brand {
 
 .top-header .navbar .navbar-collapse ul li a:hover{
 /* .top-header .navbar .navbar-collapse ul li a:focus { */
-	background: brown;
+	background-color: brown;
 	color: white;
 }
 
@@ -716,7 +716,7 @@ button#sidebarCollapse {
 	display: none;
 	position: absolute;
 	background-color: whitesmoke;
-	
+	margin-top: 5px;
 	
 	
 }
@@ -733,7 +733,7 @@ button#sidebarCollapse {
 	background-color: whitesmoke;
 	width: 300px;
 	margin-left: -200px;
-	
+	margin-top: 5px;
 	
 }
 
@@ -746,36 +746,64 @@ button#sidebarCollapse {
 	position: absolute;
 	background-color: whitesmoke;
 	width: 200px;
+	margin-top: 5px;
 }
 
 .dropdown2:hover .dropdown-content2{
 	display: block;
 }
 
-.dropdown-content3{
+
+.container .dropdown-content3{
 	display: none;
 	position: absolute;
 	background-color: whitesmoke;
-	width: 500px;
-	height: 200px;
+	margin-top: 5px;
+	opacity: 0.95;
 	float: left;
-    
+
+	padding: 0px;
+	 margin-left: -655px;  
+
 }
 .dropdown-content3 ul li{
 	display: inline-table;
+	
 }
-.dropdown3:hover .dropdown-content3{
-	display: block;
+ .dropdown-content3 .row .col-md-3 .dropdown-item:hover{
+	background-color: whitesmoke;
+	color: brown;
+} 
+.dropdown-content3 .row .col-md-9 .image a:hover{
+	
+background-color: whitesmoke;
+width: 0px;
+height: 0px;
+
+}
+.dropdown-content3 .row .col-md-9 .image{
+margin-top: 20px;
+
+}
+.dropdown-content3 .row .col-md-9 .image a{
+	margin-right: 52px;
+	
+	}
+.dropdown-content3 .row .col-md-9 .image img{
+	height: 200px;
+	width: 350px;
 	opacity: 1;
 }
 
-.sub-menu{
-	display: none;
-	
-	z-index: 1;
-}
-.sub-menu li{
+.dropdown3:hover .dropdown-content3{
 	display: block;
+}
+
+
+
+.dropdown-content3 .row .col-md-9 .image .card-body a:hover{
+color: brown;
+	
 }
 
 
@@ -814,6 +842,8 @@ font-size: 20px;
 	color: brown;
 	font-size: 20px;		
 }	
+
+
 /*------------------------------------------------------------------ crossbar -------------------------------------------------------------------*/
 .home-slider {
 	position: relative;
@@ -2322,7 +2352,8 @@ footer.footer-box h3 {
 }
 
 p {
-    margin-top: 5px;
+	margin-top: 5px;
+
     margin-bottom: 1rem;
     font-size: 17px;
     font-weight: 300;

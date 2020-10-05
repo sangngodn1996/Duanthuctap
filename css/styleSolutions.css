@@ -70,9 +70,10 @@ hr.light {
 }
 
 h1{
-	padding-top: 50px !important;
-	font-size: 250% !important; 
+	padding-top: 0px !important;
+	font-size: 30px !important;
 }
+
 .green{
 	font-size: 90%;
 	color: green;
@@ -80,6 +81,12 @@ h1{
 	background-color: rgb(238, 245, 230);
 	margin-left: 20px;
 }
+
+.row .col-sm-2 h1{
+	font-size: 30px;
+	margin-top: 10px;
+}
+
 
 
 
