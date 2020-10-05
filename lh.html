@@ -23,10 +23,10 @@
 	<!-- Responsive CSS -->
 	<link rel="stylesheet" href="css/responsive.css" />
 	<!-- Custom CSS -->
-	<link rel="stylesheet" href="css/custom.css" />
-	<link rel="stylesheet" href="css/contact.css" />
+	<link rel="stylesheet" href="css/stylecontact.css" />
 
-	
+
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
@@ -112,12 +112,12 @@
 					<div class="col-sm-12" style="margin-top: 65px;background-image: url(images/background.jpg);">
 						<div class="container" style="background-color: turquoise;">
 							<div class="col-sm-2">
-								<h1>Team</h1>
+								<h1>Contact Us</h1>
 							</div>
 							<div class="col-sm-12">
 								<ol class="breadcrumb">
 									<li class="breadcrumb-item"><a href="index.html">Home</a></li>
-									<li class="breadcrumb-item active" aria-current="page">Team</li>
+									<li class="breadcrumb-item active" aria-current="page">Contact Us</li>
 								</ol>
 							</div>
 						</div>
@@ -128,71 +128,81 @@
 			<section class="content ">
 				<div class="container">
 					<div class="contact">
-						<article class="main single contact">
-							<h4>Get in touch with us</h4>
+						<article class="main single contact" style="padding-right: 5px;">
+							<h2>Get in touch with us</h2>
 							<p>Start your project with us. We’d love to work with you. When you’re ready to talk, send
 								us a mail
 								via contact form below.</p>
-								<form id="contact-form" method="post" action="contact.php" role="form">
+							<form id="contact-form" method="post" action="contact.php" role="form">
 
-									<div class="messages"></div>
-								
-									<div class="controls">
-								
-										<div class="row">
-											<div class="col-md-6">
-												<div class="form-group">
-													<label for="name">Name *</label>
-													<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name *" required="required" data-error="name is required.">
-													<div class="help-block with-errors"></div>
-												</div>
-											</div>
-											<div class="col-md-6">
-												<div class="form-group">
-													<label for="address">Address *</label>
-													<input id="form_address" type="text" name="surname" class="form-control" placeholder="Please enter your address *" required="required" data-error="address is required.">
-													<div class="help-block with-errors"></div>
-												</div>
+								<div class="messages"></div>
+
+								<div class="controls">
+
+									<div class="row">
+										<div class="col-md-6">
+											<div class="form-group">
+												<label for="name">Name *</label>
+												<input id="form_name" type="text" name="name" class="form-control"
+													placeholder="Please enter your name *" required="required"
+													data-error="name is required.">
+												<div class="help-block with-errors"></div>
 											</div>
 										</div>
-										<div class="row">
-											<div class="col-md-6">
-												<div class="form-group">
-													<label for="form_email">Email *</label>
-													<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-													<div class="help-block with-errors"></div>
-												</div>
-											</div>
-											<div class="col-md-6">
-												<div class="form-group">
-													<label for="form_phone">Phone *</label>
-													<input id="form_phone" type="phone" name="phone" class="form-control" placeholder="Please enter your phone *" required="required" data-error="Valid phone is required.">
-													<div class="help-block with-errors"></div>
-												</div>
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-md-12">
-												<div class="form-group">
-													<label for="form_message">Message *</label>
-													<textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-													<div class="help-block with-errors"></div>
-												</div>
-											</div>
-											<div class="col-md-12">
-												<input type="submit" class="btn btn-success btn-send" value="Send message">
-												<input type="reset" class="btn btn-success btn-send" value="Reset">
-											</div>
-										</div>
-										<div class="row">
-											<div class="col-md-12">
-												<p class="text-muted">
-												
+										<div class="col-md-6">
+											<div class="form-group">
+												<label for="address">Address *</label>
+												<input id="form_address" type="text" name="surname" class="form-control"
+													placeholder="Please enter your address *" required="required"
+													data-error="address is required.">
+												<div class="help-block with-errors"></div>
 											</div>
 										</div>
 									</div>
-								
-								</form>
+									<div class="row">
+										<div class="col-md-6">
+											<div class="form-group">
+												<label for="form_email">Email *</label>
+												<input id="form_email" type="email" name="email" class="form-control"
+													placeholder="Please enter your email *" required="required"
+													data-error="Valid email is required.">
+												<div class="help-block with-errors"></div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<label for="form_phone">Phone *</label>
+												<input id="form_phone" type="phone" name="phone" class="form-control"
+													placeholder="Please enter your phone *" required="required"
+													data-error="Valid phone is required.">
+												<div class="help-block with-errors"></div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-12">
+											<div class="form-group">
+												<label for="form_message">Message *</label>
+												<textarea id="form_message" name="message" class="form-control"
+													placeholder="Message for me *" rows="4" required="required"
+													data-error="Please, leave us a message."></textarea>
+												<div class="help-block with-errors"></div>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<input type="submit" class="btn btn-send" value="Send message" style="background-color: #f28728;">
+											<input type="reset" class="btn  btn-send" value="Reset" style="background-color: #f28728;">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-12">
+											<p class="text-muted">
+
+										</div>
+									</div>
+								</div>
+
+							</form>
 
 						</article>
 
@@ -200,12 +210,12 @@
 
 							<div class="map_contact"><iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.571400502229!2d108.18037821433629!3d16.03581174459325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421970e67d568d%3A0x4d5004563ed95051!2zMTg4IEzDqiBUcuG7jW5nIFThuqVuLCBIb8OgIFBow6F0LCBD4bqpbSBM4buHLCDEkMOgIE7hurVuZywgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1600746099339!5m2!1svi!2s"
-									width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+									width="400" height="450" frameborder="0" style="border:0;" allowfullscreen=""
 									aria-hidden="false" tabindex="0"></iframe></div>
 
 							</br></br>
-							<section class="  widget widget_text">
-								
+							<section class="  widget widget_text" style="margin-top: -30px;">
+
 								<h3>Contact details</h3>
 								<div class="textwidget">
 									<h4>CANADA</h4>
@@ -224,81 +234,95 @@
 								</div>
 							</section>
 
+							<section class="  widget widget_text">
+								<h3 style="margin-top: 30px;">Get social</h3>
+
+								<div class="social" style="margin-top: 20px; margin-bottom: 40px;">
+									<ul>
+										<li><a href="https://www.facebook.com/QTdataInc" class="facebook"
+												target="_blank" data-original-title=""><img src="images/facebook-new.png" width="48px" height="48px"></a></li>
+										<li><a href="https://twitter.com/QTdataInc" class="twitter" target="_blank"
+												data-original-title=""><img src="images/icons8-twitter-48.png" alt=""></a></li>
+								
+										<li><a href="info@qntdata.com" class="email" target="_blank"
+												data-original-title=""><img src="images/email.png" width="48px" height="48px"></a></li>
+									</ul>
+								</div>
+							</section>
+
 						</aside>
 					</div>
 				</div>
 			</section>
-			<div class="clear"></div>
-			<a href="#top" class="go-top">top</a>
-		</div>
-	</div>
 
-	<!-- Start Footer -->
-	<footer class="footer-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="full">
-						<div class="heading_main text_align_center white_fonts margin-bottom_30">
-							<h2>Contact us</h2>
+
+
+			<!-- Start Footer -->
+			<footer class="footer-box">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="full">
+								<div class="heading_main text_align_center white_fonts margin-bottom_30">
+									<h2>Contact us</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+
+						<div class="col-lg-3 col-md-6 col-sm-6 white_fonts">
+							<div class="full footer_blog f_icon_1">
+								<p>Address<br><small>188 Le Trong Tan Street,<br>Ward Hoa Phat, District Cam Le,<br>Da
+										Nang City,
+										Vietnam</small></p>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-6 white_fonts">
+							<div class="full footer_blog f_icon_2">
+								<p>Phone<br><small>+84 126 922 0162<br>+84 905 333 333<br>Monday - Sunday<br>08:00 am -
+										05:00
+										pm</small></p>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-6 white_fonts">
+							<div class="full footer_blog f_icon_3">
+								<p>Email<br><small>support@sofbox.com<br>24 X 7 online support</small></p>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-6 white_fonts">
+							<div class="full footer_blog_last">
+								<p>Social media</p>
+								<p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+								</ul>
+								</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</footer>
+			<!-- End Footer -->
+			<div class="footer_bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<p class="crp">© Copyrights 2019 design by <a href="https://html.design"
+									title="Free Website Templates">Free Website Templates</a></p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-
-				<div class="col-lg-3 col-md-6 col-sm-6 white_fonts">
-					<div class="full footer_blog f_icon_1">
-						<p>Address<br><small>188 Le Trong Tan Street,<br>Ward Hoa Phat, District Cam Le,<br>Da
-								Nang City,
-								Vietnam</small></p>
-					</div>
-				</div>
-
-				<div class="col-lg-3 col-md-6 col-sm-6 white_fonts">
-					<div class="full footer_blog f_icon_2">
-						<p>Phone<br><small>+84 126 922 0162<br>+84 905 333 333<br>Monday - Sunday<br>08:00 am -
-								05:00
-								pm</small></p>
-					</div>
-				</div>
-
-				<div class="col-lg-3 col-md-6 col-sm-6 white_fonts">
-					<div class="full footer_blog f_icon_3">
-						<p>Email<br><small>support@sofbox.com<br>24 X 7 online support</small></p>
-					</div>
-				</div>
-
-				<div class="col-lg-3 col-md-6 col-sm-6 white_fonts">
-					<div class="full footer_blog_last">
-						<p>Social media</p>
-						<p>
-						<ul>
-							<li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-						</ul>
-						</p>
-					</div>
-				</div>
-
-			</div>
 		</div>
-	</footer>
-	<!-- End Footer -->
-	<div class="footer_bottom">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<p class="crp">© Copyrights 2019 design by <a href="https://html.design"
-							title="Free Website Templates">Free Website Templates</a></p>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
 	</div>
 	<a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
 	<!-- ALL JS FILES -->
