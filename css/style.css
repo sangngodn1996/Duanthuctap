@@ -716,7 +716,7 @@ button#sidebarCollapse {
 	display: none;
 	position: absolute;
 	background-color: whitesmoke;
-	margin-top: 5px;
+	
 	
 	
 }
@@ -733,7 +733,7 @@ button#sidebarCollapse {
 	background-color: whitesmoke;
 	width: 300px;
 	margin-left: -200px;
-	margin-top: 5px;
+
 	
 }
 
@@ -746,7 +746,7 @@ button#sidebarCollapse {
 	position: absolute;
 	background-color: whitesmoke;
 	width: 200px;
-	margin-top: 5px;
+	
 }
 
 .dropdown2:hover .dropdown-content2{
@@ -758,7 +758,7 @@ button#sidebarCollapse {
 	display: none;
 	position: absolute;
 	background-color: whitesmoke;
-	margin-top: 5px;
+	
 	opacity: 0.95;
 	float: left;
 
@@ -788,19 +788,15 @@ margin-top: 20px;
 .dropdown-content3 .row .col-md-9 .image a{
 	margin-right: 53px;
 	
-	}
+}
 .dropdown-content3 .row .col-md-9 .image img{
 	height: 200px;
 	width: 350px;
 	opacity: 1;
 }
-
 .dropdown3:hover .dropdown-content3{
 	display: block;
 }
-
-
-
 .dropdown-content3 .row .col-md-9 .image .card-body a:hover{
 color: brown;
 	
