@@ -59,3 +59,16 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+html,body{
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSZtsD9j-rJ8omWK_v0K7wlNgCfE80Gf_4UKQ&usqp=CAU');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}

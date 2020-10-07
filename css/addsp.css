@@ -20,3 +20,6 @@ table#t01 tr:nth-child(even) {
     width: 60px;
     height: 60px;
     }
+.imgage-sp{
+  margin-left: 50px;
+}

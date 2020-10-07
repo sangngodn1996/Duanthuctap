@@ -1,0 +1,24 @@
+{
+  "SANPHAM" : {
+    "content" : "MAL là một bài viet chuyên về việc quản lý nhân viên làm việc online\t\t",
+    "id" : "S001",
+    "name" : "San Pham MAL",
+    "photo" : "https://www.google.com.vn/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fimage&psig=AOvVaw0oBdK8hT1PzFwtBSmVU9St&ust=1601695174085000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDa3dH5lOwCFQAAAAAdAAAAABAD",
+    "price" : 5000000
+  },
+  "USER" : [ {
+    "age" : true,
+    "email" : "dinhdat@gmail.com",
+    "name" : "lê đình đạt",
+    "password" : "123456",
+    "phone" : "01668256771",
+    "username" : "ledinhdat"
+  }, {
+    "age" : true,
+    "email" : "dinhdat11@yahoo.com",
+    "name" : "lê đình đạt",
+    "password" : "123456",
+    "phone" : "01668256771",
+    "username" : "datldps08965"
+  } ]
+}

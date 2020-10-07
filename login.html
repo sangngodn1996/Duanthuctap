@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- login js -->
-    <script src="database/login.js"></script>
+    <script src="/app/login.js" type="nomodule" ></script>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -31,25 +31,25 @@
                         <span><i class="fab fa-twitter-square"></i></span>
                     </div>
                 </div>
-                <div class="card-body">
-                    <form>
-                        <div class="input-group form-group" id="user_div">
+                <div class="card-body" id="modal-login">
+                    <form id="login-form">
+                        <div class="input-group form-group" >
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-user"></i></span>
                             </div>
-                            <input type="text" class="form-control" placeholder="username" id="un">
+                            <input type="text" class="form-control" placeholder="username" id="login-email">
                         </div>
                         <div class="input-group form-group" id="pass_div">
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-key"></i></span>
                             </div>
-                            <input type="password" class="form-control" placeholder="password" id="ps">
+                            <input type="password" class="form-control" placeholder="password" id="login-pass">
                         </div>
                         <div class="row align-items-center remember">
                             <input type="checkbox">Remember Me
                         </div>
                         <div class="form-group" id="login_div">
-                            <input type="submit" value="Login" class="btn float-right login_btn" onclick="login()">
+                            <input type="submit" value="Login" class="btn float-right login_btn" >
                         </div>
                     </form>
                 </div>
@@ -65,25 +65,9 @@
         </div>
     </div>
     <!-- firebase -->
-    <!-- <script type="text/javascript">
-    
-        function  login(){
-          var user = document.getElementById("un").value;
-          var pass = document.getElementById("ps").value;
-            firebase.auth().onAuthStateChanged(function (user, pass) {
-                if (user && pass) {
-                    alert("login thanh cong");
-                    locate = "./addsp.html"
-                    return false;
-                } else {
-                    alert("wrong username or password");
-                    return false;
-                }
-            });
-        };
-</script> -->
 
-    <script>
+    <!-- <script>
+       
         var Config = {
             apiKey: "AIzaSyBwfg---Ci3N1QjVWCGhR1sNdGHBvc2DvI",
             authDomain: "logindragon-84f60.firebaseapp.com",
@@ -96,11 +80,23 @@
         };
         // Initialize Firebase
         firebase.initializeApp(Config);
-    </script>
+       
+        //make auth and fireStore references
+      export  var  auth = firebase.auth();
+      export  var  db = firebase.firestore();
+
+        //  update fireStore settings
+
+        db.settings({ timestampsInSnapshots: true});
+    </script> -->
+
+    
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script defer src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
     <script defer src="https://www.gstatic.com/firebasejs/7.5.2/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/7.5.2/firebase-database.js"></script>
     <script defer src="https://www.gstatic.com/firebasejs/7.5.2/firebase-firestore.js"></script>
+   
     <!-- end firebase -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
