@@ -4,7 +4,7 @@ const CD = document.getElementById('Chude');
 const MSP = document.getElementById('maSP');
 const Name = document.getElementById('tenSp');
 const Price = document.getElementById('gia');
-// const Photo = document.getElementById('hinhanh');
+const fileImage = document.getElementById('addImage');
 const Content = document.getElementById('noidung');
 const addBtn = document.getElementById('addBtn');
 const updateBtn = document.getElementById('updateBtn');
@@ -12,6 +12,7 @@ const deleteBtn = document.getElementById('deleteBtn');
 
 const database = firebase.database();
 const rtRef = database.ref('SANPHAM');
+const storage = firebase.storage();
 
 //addsp
 addBtn.addEventListener('click', (e) => {
@@ -20,44 +21,22 @@ addBtn.addEventListener('click', (e) => {
         idSP: MSP.value,
         name: Name.value,
         price: Price.value,
-        // photo: Photo.value,
         content: Content.value
        
     });
+
+    
+
 });
+
+//add image
+fileImage.addEventListener('change', (e) => {
+    const file = e.target.files[0];
+    const StorageRef = storage.ref('image/' + file.name);
+    StorageRef.put(file);
+});
+
 
 //update
-updateBtn.addEventListener('click', (e) =>{
-    e.preventDefault();
-    var newData ={
-        idSP: MSP.value,
-        name: Name.value,
-        price: Price.value,
-        //photo
-        content: Content.value
-    };
-    rtRef.child(CD.value).update(newData);
-});
 
 //delete
-deleteBtn.addEventListener('click', (e) =>{
-    e.preventDefault();
-    rtRef.child(CD.value).remove()
-    .then(() =>{
-        window.alert('clmm');
-    })
-    .catch(error =>{
-        console.error(error);
-    });
-});
-
-//ordering funtion
-// rtRef.orderByKey.limitToLast    (2).on('value', snpashot =>{
-
-// });
-
-//list data
-var newPostRef = postListRef.push();
-newPostRef.set({
-   
-});
