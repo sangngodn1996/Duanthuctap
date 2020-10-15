@@ -298,3 +298,6 @@ aside section { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box
 .content aside section:nth-child(odd) { padding-right: 10px; }
 .content aside section:nth-child(even) { padding-left: 10px; }
 }
+p{
+text-align: justify;
+}
